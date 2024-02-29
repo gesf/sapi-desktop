@@ -1,9 +1,9 @@
 {
   "name": "sapi-electron",
   "version": "1.0.0",
-  "description": "SAPI - Desktop Application",
-  "productName": "SAPI - API Platform",
-  "copyright": "Copyright © 2024 ${author}",  
+  "description": "Desktop Application",
+  "productName": "API Platform",
+  "copyright": "Copyright © 2024 simple-api.app",  
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
