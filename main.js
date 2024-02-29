@@ -12,9 +12,9 @@ const createWindow = () => {
     }
   })
 
-  app.setName('API Platform');)
-  mainWindow.setTitle('API Platform');
-  mainWindow.setFullScreenable(true);
+  app.setName('API Platform')
+  mainWindow.setTitle('API Platform')
+  mainWindow.setFullScreenable(true)
   mainWindow.loadURL('https://admin.simple-api.app/')
 }
 
