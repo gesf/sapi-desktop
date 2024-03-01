@@ -6,16 +6,16 @@ const createWindow = () => {
     width: 800,
     height: 600,
     resizable: true,
-    icon: path.join(__dirname, 'sapi.ico'),
+    icon: path.join(__dirname, 'public/icons/mac/icon.icns/sapi-256'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
-  app.setName('API Platform')
-  mainWindow.setTitle('API Platform')
-  mainWindow.setFullScreenable(true)
   mainWindow.loadURL('https://admin.simple-api.app/')
+  mainWindow.setIcon(path.join(__dirname, 'public/icons/mac/icon.icns/sapi-256'));
+  mainWindow.setFullScreenable(true)
+  mainWindow.setTitle('')
 }
 
 app.whenReady().then(() => {

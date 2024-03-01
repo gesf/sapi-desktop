@@ -1,22 +1,17 @@
 {
   "name": "sapi-electron",
   "version": "1.0.0",
-  "description": "Desktop Application",
-  "productName": "API Platform",
-  "copyright": "Copyright © 2024 simple-api.app",  
+  "description": "SAPI (Simple API) - Desktop Application",
+  "productName": "Simple API",
+  "copyright": "Copyright © 2024 simple-api.app",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
+    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out --icon=public/icons/mac/icon.icns/sapi-1024",
     "make": "electron-forge make",
     "publish": "electron-forge publish"
   },
-  "mac": {
-     "icon": "build/icon.icns/sapi.ico"
-  },
-  "win": {
-     "icon": "build/icon.icns/sapi.ico"
-  },  
   "author": "Goncalo Fontoura",
   "license": "ISC",
   "devDependencies": {
@@ -31,6 +26,7 @@
     "electron": "29.1.0"
   },
   "dependencies": {
+    "electron-json-storage": "^4.6.0",
     "electron-squirrel-startup": "^1.0.0"
   },
   "files": [
@@ -42,5 +38,18 @@
   ],
   "directories": {
     "buildResources": "public"
-  }  
+  },
+  "build": {
+    "appId": "com.simple-api.app",
+    "directories": {
+      "output": "build"
+    },
+    "mac": {
+      "icon": "public/icons/mac/icon.icns/sapi-256",
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "icon": "public/icons/win/sapi"
+    }
+  }
 }

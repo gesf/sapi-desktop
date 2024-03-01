@@ -4,12 +4,16 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     asar: true,
+    icon: 'public/icons/mac/icon.icns/logo-256'
   },
   rebuildConfig: {},
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        iconUrl: 'https://simple-api.app/assets/logo.png',
+        setupIcon: 'sapi.ico'
+      },
     },
     {
       name: '@electron-forge/maker-zip',
@@ -17,7 +21,11 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-deb',
-      config: {},
+      config: {
+        options: {
+          icon: 'logo.png'
+        }        
+      },
     },
     {
       name: '@electron-forge/maker-rpm',
