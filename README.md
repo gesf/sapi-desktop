@@ -30,6 +30,6 @@ Builds on other OS neglected. MacOS tested only.
 
 #### Notes
 
-Do the packaging youself if needed. A publish + signed version will be push soon on GitHub at least.
+Do the packaging youself if needed. A publish + signed version will be pushed soon on GitHub at least.
 
 # <img src="https://simple-api.app/assets/sapi-dock.png" align="center">
