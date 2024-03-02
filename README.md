@@ -26,6 +26,10 @@ npm run start
 
 #### Limitations
 
-Builds on other OS were kind of neglected. Mac tested only.
+Builds on other OS neglected. MacOS tested only.
+
+#### Notes
+
+Do the packaging youself if needed. A publish + signed version will be push soon on GitHub at least.
 
 # <img src="https://simple-api.app/assets/sapi-dock.png" align="center">
