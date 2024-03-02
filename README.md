@@ -1,4 +1,7 @@
 # <img src="http://simple-api.app/assets/logo.png" width="60px" align="center" alt="SAPI icon"> Simple API - MacOS Desktop Application
+
+Have access to our API Platform, straight from your Dock: https://simple-api.app
+
 ## Version Map
 
 Below is a version mapping table between SAPI Desktop versions and Electron versions.
@@ -30,6 +33,6 @@ Builds on other OS neglected. MacOS tested only.
 
 #### Notes
 
-Do the packaging youself if needed. A publish + signed version will be pushed soon on GitHub at least.
+Do the packaging yourself if needed. A publish + signed version will be pushed soon on GitHub at least.
 
 # <img src="https://simple-api.app/assets/sapi-dock.png" align="center">
