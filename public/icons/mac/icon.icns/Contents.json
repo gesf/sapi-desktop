@@ -3,61 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "logo-16.png",
+      "filename" : "sapi-16.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "logo-32.png",
+      "filename" : "sapi-32.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "logo-32.png",
+      "filename" : "sapi-32.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "logo-64.png",
+      "filename" : "sapi-64.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "logo-128.png",
+      "filename" : "sapi-128.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "logo-256.png",
+      "filename" : "sapi-256.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "logo-256.png",
+      "filename" : "sapi-256.png",
       "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "logo-512.png",
+      "filename" : "sapi-512.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "logo-512.png",
+      "filename" : "sapi-512.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "logo-1024.png",
+      "filename" : "sapi-1024.png",
       "scale" : "2x"
     }
   ],
