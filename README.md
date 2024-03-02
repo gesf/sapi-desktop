@@ -1,6 +1,6 @@
-# <img src="http://simple-api.app/assets/logo.png" width="60px" align="center" alt="SAPI icon"> MacOS Desktop Application
+# <img src="http://simple-api.app/assets/logo.png" width="60px" align="center" alt="SAPI icon"> MacOS Application
 
-Access our API Platform, straight from your Dock: https://simple-api.app
+Access our platform straight from your dock: https://simple-api.app
 
 ## Version Map
 
