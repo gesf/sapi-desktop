@@ -2,6 +2,9 @@
 
 Access our platform straight from your dock: https://simple-api.app
 
+
+<img src="https://img.shields.io/badge/Status-%20Ready%20for%20Awesome-red.svg" alt="status">
+
 ## Version Map
 
 Below is a version mapping table between SAPI Desktop versions and Electron versions.
