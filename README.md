@@ -4,8 +4,7 @@ Access our platform straight from your dock: https://simple-api.app
 
 ## Important
 
-This is an initial and experimental project / build.
-
+This is an experimental (initial) project / build.
 
 <img src="https://img.shields.io/badge/Status-%20Ready%20for%20Awesome-red.svg" alt="status">
 
