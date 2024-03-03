@@ -2,6 +2,10 @@
 
 Access our platform straight from your dock: https://simple-api.app
 
+## Important
+
+This is an initial and experimental project / build.
+
 
 <img src="https://img.shields.io/badge/Status-%20Ready%20for%20Awesome-red.svg" alt="status">
 
@@ -40,3 +44,7 @@ You might need to do the pakcaging yourself.
 A publish + signed version will be pushed soon on GitHub, at least.
 
 # <img src="https://simple-api.app/assets/sapi-dock.png" align="center">
+
+Remeber to authtorize unverified builds under `System Setting > Privacy & Security`.
+
+# <img src="https://simple-api.app/assets/security-accept-open.png" align="center">
