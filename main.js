@@ -2,20 +2,23 @@ const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 
 const createWindow = () => {
-  const mainWindow = new BrowserWindow({
+
+  const url         = 'https://admin.simple-api.app/'
+  const icon        = 'public/icons/mac/icon.icns/sapi-256.icns'
+
+  const mainWindow  = new BrowserWindow({
     width: 800,
     height: 600,
     resizable: true,
-    icon: path.join(__dirname, 'public/icons/mac/icon.icns/sapi-256.icns'),
+    icon: path.join(__dirname, icon),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
-  mainWindow.loadURL('https://admin.simple-api.app/')
-  mainWindow.setIcon(path.join(__dirname, 'public/icons/mac/icon.icns/sapi-256.icns'));
+  mainWindow.loadURL(url)
+  mainWindow.setIcon(path.join(__dirname, icon))
   mainWindow.setFullScreenable(true)
-  mainWindow.setTitle('')
 }
 
 app.whenReady().then(() => {
