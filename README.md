@@ -1,4 +1,4 @@
-## <img src="http://simple-api.app/assets/logo.png" width="60px" align="center" alt="SAPI icon"> MacOS Application
+## <img src="http://simple-api.app/assets/logo.png" width="60px" class="rounded" alt="SAPI icon"> MacOS Application
 
 Access our platform straight from your dock: https://simple-api.app
 
