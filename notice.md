@@ -14,6 +14,4 @@ Any explicity copyright or author note in any file or source code - where the au
 
 ***
 
-Author: Gonçalo Fontoura
-Created: 1710429573
-Last Updated: 1710429573
+Author: Gonçalo Fontoura | Created: 1710429573 | Last Updated: 1710429573
